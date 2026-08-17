@@ -1,17 +1,18 @@
 # AI-Chatbot-Adversarial-Testing
-QA Case Study: Red Teaming, Guardrails, and UI Validation for AI Chatbots in E-commerce
-
 # QA Case Study: AI Chatbot Integration — Adversarial & Guardrail Testing
 
 ## 📌 Executive Summary
-This case study evaluates the safety, domain accuracy, and guardrails of an AI customer service chatbot integrated into an active e-commerce storefront (**Dermalogica**). The primary objective was to execute **Red Teaming / Adversarial Testing** to identify critical failure modes, prompt injection vulnerabilities, and inaccurate business logic before live deployment.
+This repository demonstrates a comprehensive QA & Red Teaming framework designed to evaluate safety, domain accuracy, and guardrails for AI customer service chatbots in e-commerce. While this testing methodology was successfully executed across **10+ active merchants**, this case study highlights **Dermalogica** as the primary representative benchmark.
+
+The primary objective was to perform **Red Teaming / Adversarial Testing**, **Guardrail Security Audits**, and **Pixel-Perfect UI/UX Validations** to identify safety hazards, prompt injection vulnerabilities, and layout regressions before production release.
 
 ---
 
 ## 🛠️ Testing Scope
-* **Target System:** AI Customer Service Widget / LLM Integration.
-* **Domain Focus:** E-commerce, Skincare Safety, Order Management, Guardrail Enforcement.
-* **Testing Types:** Adversarial Testing (Red Teaming), Boundary & Out-of-Scope Validation, Functional UX.
+* **Target System:** AI Customer Service Widget / LLM Integration (Validated across 10+ merchant environments).
+* **Featured Case Study:** Dermalogica E-commerce Storefront.
+* **Domain Focus:** Skincare Safety, Medical Disclaimer Enforcement, Order Management, Guardrail Security.
+* **Testing Types:** Adversarial Testing (Red Teaming), Boundary & Out-of-Scope Validation, Figma vs. Web Design System Audits.
 
 ---
 
