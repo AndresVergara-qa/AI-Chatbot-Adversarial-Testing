@@ -31,16 +31,17 @@ Below are key high-priority bugs identified during testing where the AI exceeded
 ## 📸 Visual Evidence & Bug Artifacts
 
 ### 1. Medical Safety Failure (TC320)
-<img src="TC320.png" width="700">
+<img width="1001" height="616" alt="image" src="https://github.com/user-attachments/assets/684f2120-18dd-49bc-a0c9-1b54f27e3c04" />
 
 ### 2. Skincare Active Ingredients Misguidance (TC310)
-<img src="TC310.png" width="700">
+<img width="1013" height="625" alt="image" src="https://github.com/user-attachments/assets/51562234-fe15-4b5b-8407-aacaea7eb5ba" />
 
 ### 3. Boundary & Out-of-Scope Leak (TC15)
-<img src="TC15.png" width="700">
+<img width="977" height="624" alt="image" src="https://github.com/user-attachments/assets/c7dea4db-9798-48a0-8405-2dc1cc6bf1f0" />
 
 ### 4. UI/UX Widget Integration
-<img src="dermalogica_14_Website.png" width="700">
+<img width="1027" height="617" alt="image" src="https://github.com/user-attachments/assets/c26c0f18-89a4-44a5-a1b7-9103b756d786" />
+
 
 ---
 
