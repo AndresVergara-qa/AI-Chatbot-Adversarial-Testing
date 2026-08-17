@@ -8,7 +8,7 @@ The primary objective was to perform **Red Teaming / Adversarial Testing**, **Gu
 
 ---
 
-## 🛠️ Testing Scope
+## Testing Scope
 * **Target System:** AI Customer Service Widget / LLM Integration (Validated across 10+ merchant environments).
 * **Featured Case Study:** Dermalogica E-commerce Storefront.
 * **Domain Focus:** Skincare Safety, Medical Disclaimer Enforcement, Order Management, Guardrail Security.
@@ -29,7 +29,7 @@ Below are key high-priority bugs identified during testing where the AI exceeded
 
 ---
 
-## 📸 Visual Evidence & Bug Artifacts
+## Visual Evidence & Bug Artifacts
 
 ### 1. Medical Safety Failure (TC320)
 <img width="1001" height="616" alt="image" src="https://github.com/user-attachments/assets/684f2120-18dd-49bc-a0c9-1b54f27e3c04" />
@@ -58,7 +58,7 @@ Below are key high-priority bugs identified during testing where the AI exceeded
 
 ---
 
-## 🎨 UI/UX Pixel-Perfect & Design System Audit (26 Defects Found)
+## UI/UX Pixel-Perfect & Design System Audit (26 Defects Found)
 
 A thorough cross-examination was conducted comparing the **Figma Design System** against the live production environment across **PLP (Product Listing Page)** and **PDP (Product Detail Page)** across all 5 widget interaction states (*Pre-Engagement, Post-Engagement, Comparison, Chat Component, and Loading Response*).
 
