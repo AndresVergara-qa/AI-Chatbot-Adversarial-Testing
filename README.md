@@ -84,8 +84,9 @@ Below is a representative sample of the 26 UI defects logged during the audit. T
 | **UI-023** | PLP / Loading State | Title Position Jump | *"Shopping Assistant"* title shifts position dynamically during the response loading state. | **MEDIUM:** Unstable visual transition during automated responses. |
 | **UI-004** | PDP / Post Engagement | Input Padding Discrepancy | Padding between text input and suggestion buttons is significantly larger than Figma specs. | **LOW:** Minor visual design system token drift. |
 
-> 📁 **Full Audit Report:** View the complete list of 26 logged UI defects, complete with Figma links and live site comparison screenshots in the [`UI Bugs.xlsx`](./UI%20Bugs.xlsx) spreadsheet included in this repository.
+> 📁 **Full Audit Report & Evidence:** View the complete list of 26 logged UI defects in [`UI Bugs.xlsx`](./UI%20Bugs.xlsx) and browse all high-resolution visual comparison artifacts in the [`/assetsui-bugs`](./assetsui-bugs) folder.
 
 ## 💡 Value Delivered
-* **Risk Mitigation:** Prevented severe brand liability by identifying dangerous AI advice regarding chemical skin products prior to launch.
-* **Guardrail Refinement:** Provided clear regression data for engineers to fine-tune system prompts, fallback responses, and knowledge base grounding.
+* **AI Safety & Risk Mitigation:** Prevented severe brand liability by identifying dangerous advice regarding chemical skin products and ungrounded out-of-scope responses prior to launch.
+* **Guardrail & Prompt Refinement:** Delivered regression data and concrete edge cases for engineers to fine-tune LLM system prompts and knowledge base grounding.
+* **UI/UX & Conversion Preservation:** Resolved 26 visual and layout defects (including mobile CTA overlap and multi-row button wrapping), ensuring full parity with Figma design specifications.
