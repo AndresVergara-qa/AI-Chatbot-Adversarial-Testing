@@ -54,6 +54,38 @@ Below are key high-priority bugs identified during testing where the AI exceeded
 
 ---
 
+
+---
+
+## 🎨 UI/UX Pixel-Perfect & Design System Audit (26 Defects Found)
+
+A thorough cross-examination was conducted comparing the **Figma Design System** against the live production environment across **PLP (Product Listing Page)** and **PDP (Product Detail Page)** across all 5 widget interaction states (*Pre-Engagement, Post-Engagement, Comparison, Chat Component, and Loading Response*).
+
+### 📊 Key UI Audit Highlights
+* **Total UI/UX Issues Identified:** 26 Defects logged.
+* **Scope Covered:** PLP & PDP across Desktop and Mobile Viewports.
+* **Primary Defect Categories:**
+  * **Viewport & Layout Breakages:** Horizontal page scrolling/overflow on mobile/PLP.
+  * **Component Wrapping & Grid Alignment:** Suggestion buttons breaking into 2 rows instead of single-row Figma specs.
+  * **Visual State Inconsistencies:** Header title shifting during response loading states and missing product thumbnails.
+  * **Design System Token Mismatches:** Send icon opacity, magnifying glass stroke weight, and element padding discrepancies.
+
+---
+
+## 🐞 Curated UI/UX Defect Samples
+
+Below is a representative sample of the 26 UI defects logged during the audit. The complete 26-item bug matrix with full Figma vs. Web comparison artifacts is available in [`UI Bugs.xlsx`](./UI%20Bugs.xlsx).
+
+| Bug ID | Page / Widget State | Issue Summary | Figma vs. Web Discrepancy | Severity / Impact |
+| :--- | :--- | :--- | :--- | :--- |
+| **UI-016** | PLP / Post Engagement | Viewport Overflow / Canvas Breakage | Live design exceeds page width limits, making the entire PLP horizontally scrollable/draggable. | **HIGH:** Breaks core layout and scroll mechanics on mobile. |
+| **UI-025** | PDP / Pre Engagement | Missing Product Image | Product image thumbnail is missing entirely from the pre-engagement card container. | **HIGH:** Reduces visual context for users prior to chat. |
+| **UI-017** | PLP / Post Engagement | Multi-row Button Wrapping | Suggestion action buttons wrap into 2 rows instead of maintaining a single-row layout per Figma. | **MEDIUM:** Distorts card vertical alignment and spacing. |
+| **UI-023** | PLP / Loading State | Title Position Jump | *"Shopping Assistant"* title shifts position dynamically during the response loading state. | **MEDIUM:** Unstable visual transition during automated responses. |
+| **UI-004** | PDP / Post Engagement | Input Padding Discrepancy | Padding between text input and suggestion buttons is significantly larger than Figma specs. | **LOW:** Minor visual design system token drift. |
+
+> 📁 **Full Audit Report:** View the complete list of 26 logged UI defects, complete with Figma links and live site comparison screenshots in the [`UI Bugs.xlsx`](./UI%20Bugs.xlsx) spreadsheet included in this repository.
+
 ## 💡 Value Delivered
 * **Risk Mitigation:** Prevented severe brand liability by identifying dangerous AI advice regarding chemical skin products prior to launch.
 * **Guardrail Refinement:** Provided clear regression data for engineers to fine-tune system prompts, fallback responses, and knowledge base grounding.
